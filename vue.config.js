@@ -4,6 +4,7 @@ function resolve(dir) {
 }
 module.exports = {
   // 将 examples 目录添加为新的页面
+  publicPath: '/v-fast-ui/dist',
   pages: {
     index: {
       // page 的入口
