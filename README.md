@@ -3,6 +3,9 @@
 ## GitHub 仓库地址
 [https://github.com/MarvenGong/v-fast-ui]
 
+## DEMO演示地址
+[https://marvengong.github.io/v-fast-ui/dist/index.html]
+
 ## 安装
 ~~~javascript
 npm install --save v-fast-ui
