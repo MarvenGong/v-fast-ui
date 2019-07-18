@@ -55,6 +55,10 @@ li {
 a {
   color: #42b983;
 }
+.hello{
+  width: 375px; 
+  margin: 0 auto;
+}
 button {
   cursor: pointer;
   background: #42b983;
