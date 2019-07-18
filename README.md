@@ -1,10 +1,10 @@
 # v-fast-ui
 
 ## GitHub 仓库地址
-[https://github.com/MarvenGong/v-fast-ui]
+[github地址>][github]
 
 ## DEMO演示地址
-[https://marvengong.github.io/v-fast-ui/dist/index.html]
+[Demo演示地址>][demo]
 
 ## 安装
 ~~~javascript
@@ -135,3 +135,6 @@ export default {
 }
 // 其他同全局引入
 ~~~
+
+[github]: https://github.com/MarvenGong/v-fast-ui "Github"
+[demo]: https://marvengong.github.io/v-fast-ui/dist/index.html "Demo演示地址"
