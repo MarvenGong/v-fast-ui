@@ -94,5 +94,41 @@ export default {
   }
 </style>
 ~~~
-### Toast全局提示组件
-
+### 按需引入
+- 首先还是在main.js里面加载我们的公共样式文件
+~~~javascript
+import 'v-fast-ui/lib/v-fast-ui.css';
+~~~
+- 在需要使用的地方手动加载组件使用
+  
+#### Toast和Indicator
+~~~javascript
+<script>
+import { Toast, Indicator } from 'v-fast-ui';
+export default {
+  data() {
+    return {};
+  },
+  mounted() {
+    Toast('你好呀');
+    Indicator.open('loading...'); // 打开加载动画
+    setTimeout(() => {
+      Indicator.close(); // 关闭加载动画
+    }, 2000);
+  }
+}
+</script>
+~~~
+#### SixNumber六位密码输入控件
+~~~javascript
+import { SixNumber } from 'v-fast-ui';
+export default {
+  data() {
+    return {};
+  },
+  components: {
+    SixNumber
+  }
+}
+// 其他同全局引入
+~~~
