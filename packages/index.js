@@ -1,9 +1,11 @@
 import Toast from './toast';
 import Indicator from './indicator';
 import SixNumber from './six-number';
+import ScrollWord from './scroll-word';
 import './style.css';
 const components = [
-  SixNumber
+  SixNumber,
+  ScrollWord
 ];
 const install = function (Vue) {
   if (install.installed) return

@@ -100,9 +100,10 @@ export default {
 <style lang="css" scoped>
 .code-input{
   position: relative;
-  height: 0;
+  height: 1px;
   left: -100%;
   border: 0;
+  opacity: 0;
 }
 .code-input:focus{
   outline: none;

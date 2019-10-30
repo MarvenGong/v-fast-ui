@@ -6,6 +6,7 @@
       <button @click="hanndleIndicator">全局loading提示</button>
     </p>
     <p><six-number type="rect"></six-number></p>
+    <p><scroll-word></scroll-word></p>
   </div>
 </template>
 
